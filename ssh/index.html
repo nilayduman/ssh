@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSH - Sırrını Paylaş</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/bear.jpg" alt="Tatlı Ayı" class="image">
+        <div class="content">
+            <h1>Sırrını Paylaş</h1>
+            <p>Bir sırrınızı buraya yazın ve paylaşın.</p>
+            <form id="secretForm">
+                <textarea id="secret" class="secret" rows="4" cols="50" placeholder="Sırrınızı buraya yazın..."></textarea>
+                <button type="submit" class="submit-button">Gönder</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('secretForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var secret = document.getElementById('secret').value;
+            alert('Sırrın: ' + secret);
+            document.getElementById('secretForm').reset();
+        });
+    </script>
+</body>
+</html>

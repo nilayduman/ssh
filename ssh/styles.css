@@ -1,0 +1,67 @@
+.body {
+     background-color: rgb(132, 45, 212); /* Mor */
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+ }
+ 
+ 
+ .container {
+   
+    background-color: #add8e6; /* Pastel Mavi */
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+ }
+ 
+ .content {
+     text-align: center;
+     max-width: 600px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .image {
+     max-width: 150px;
+     margin-bottom: 18px;
+ }
+ 
+ h1 {
+     color: #bb28a7; /* Beyaz */
+ }
+ 
+ p {
+     color: #bb2bd1; /* Açık mor */
+     font-size: 1.2rem;
+ }
+ 
+ .secret {
+    width: 400px; /* Kare alanın genişliğini belirleyin */
+    height: 150px; /* Kare alanın yüksekliğini belirleyin */
+    padding: 18px;
+    border: 2px solid #ce93d8; /* Açık mor kenarlık */
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px; /* Gönder düğmesinden önce biraz boşluk bırakın */
+}
+
+.submit-button {
+    background-color: #ce93d8; /* Açık mor arka plan */
+    color: #ffffff; /* Beyaz metin */
+    border: none; /* Kenarlık yok */
+    padding: 10px 20px; /* Dolgular */
+    border-radius: 5px; /* Köşeleri yuvarlat */
+    cursor: pointer; /* İşaretçi el */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+    margin-left: auto; /* Sağa yasla */
+    display: block; /* Butonun alt satıra geçmesini sağla */
+}
+
+.submit-button:hover {
+    background-color: #ba68c8; /* Farklı bir renk hover durumunda */
+}
+
+
+ 
